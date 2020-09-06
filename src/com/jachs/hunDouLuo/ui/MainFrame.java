@@ -10,6 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import com.jachs.hunDouLuo.base.Bullet;
+
  /****
      * 主函数
   * @author zhanchaohan

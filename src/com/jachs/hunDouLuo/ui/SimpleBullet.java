@@ -2,6 +2,8 @@
  
  import java.awt.Color;
  import java.awt.Graphics2D;
+
+import com.jachs.hunDouLuo.base.Bullet;
  
  public class SimpleBullet extends Bullet
  {

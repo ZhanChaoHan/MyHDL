@@ -1,6 +1,8 @@
  package com.jachs.hunDouLuo.ui;
  
  import java.awt.Graphics2D;
+
+import com.jachs.hunDouLuo.base.Bullet;
  
  public class NunLinerBullet extends Bullet
  {
