@@ -1,4 +1,4 @@
- package com.jachs.hunDouLuo.ui;
+ package com.jachs.hunDouLuo;
  
  import sun.audio.AudioPlayer;
 
@@ -11,9 +11,22 @@ import java.util.List;
 import java.util.Random;
 
 import com.jachs.hunDouLuo.base.Bullet;
+import com.jachs.hunDouLuo.ui.Boss;
+import com.jachs.hunDouLuo.ui.BossBackgroundSoundThread;
+import com.jachs.hunDouLuo.ui.BossChild;
+import com.jachs.hunDouLuo.ui.FloatPoint;
+import com.jachs.hunDouLuo.ui.GameStartBackgroundSoundThread;
+import com.jachs.hunDouLuo.ui.GrassLand;
+import com.jachs.hunDouLuo.ui.Hero;
+import com.jachs.hunDouLuo.ui.Imgs;
+import com.jachs.hunDouLuo.ui.PreBossBackgroundSoundThread;
+import com.jachs.hunDouLuo.ui.SimpleEnemy;
+import com.jachs.hunDouLuo.ui.SoundUtils;
+import com.jachs.hunDouLuo.ui.WeaponFactory;
 import com.jachs.hunDouLuo.weapon.NunLinerWeapon;
 import com.jachs.hunDouLuo.weapon.ShotWeapon;
 import com.jachs.hunDouLuo.weapon.SimpleWeapon;
+import com.jachs.hunDouLuo.weapon.StrongWeapon;
 
  /****
      * 主函数

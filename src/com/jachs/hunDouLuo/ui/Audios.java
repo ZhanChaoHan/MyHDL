@@ -3,6 +3,11 @@
  import java.io.FileInputStream;
  import sun.audio.AudioStream;
  
+ /****
+   * 音频初始化
+  * @author zhanchaohan
+  *
+  */
  public class Audios
  {
    public static AudioStream getAudio(String str)

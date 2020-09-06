@@ -4,6 +4,7 @@ import com.jachs.hunDouLuo.base.Weapon;
 import com.jachs.hunDouLuo.weapon.NunLinerWeapon;
 import com.jachs.hunDouLuo.weapon.ShotWeapon;
 import com.jachs.hunDouLuo.weapon.SimpleWeapon;
+import com.jachs.hunDouLuo.weapon.StrongWeapon;
 
 public class WeaponFactory
  {
