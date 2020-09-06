@@ -3,6 +3,11 @@
  import java.awt.Image;
  import javax.swing.ImageIcon;
  
+ /****
+  * 图片初始化实体
+  * @author zhanchaohan
+  *
+  */
  public class Imgs
  {
    public static Image STRONGBULLET = new ImageIcon("graphics/bullet/strongBullet.png").getImage();

@@ -1,8 +1,13 @@
- package com.jachs.hunDouLuo.ui;
+ package com.jachs.hunDouLuo.video;
  
  import sun.audio.AudioPlayer;
  import sun.audio.AudioStream;
  
+ /****
+   * 播放音频文件
+  * @author zhanchaohan
+  *
+  */
  public class SoundUtils
  {
    public static void playSound(String str)

@@ -7,7 +7,7 @@ import com.jachs.hunDouLuo.base.Bullet;
 import com.jachs.hunDouLuo.base.Weapon;
 import com.jachs.hunDouLuo.bullet.StrongBullet;
 import com.jachs.hunDouLuo.ui.FloatPoint;
-import com.jachs.hunDouLuo.ui.SoundUtils;
+import com.jachs.hunDouLuo.video.SoundUtils;
  
  public class StrongWeapon extends Weapon
  {

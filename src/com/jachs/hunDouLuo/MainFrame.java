@@ -21,8 +21,8 @@ import com.jachs.hunDouLuo.ui.Hero;
 import com.jachs.hunDouLuo.ui.Imgs;
 import com.jachs.hunDouLuo.ui.PreBossBackgroundSoundThread;
 import com.jachs.hunDouLuo.ui.SimpleEnemy;
-import com.jachs.hunDouLuo.ui.SoundUtils;
 import com.jachs.hunDouLuo.ui.WeaponFactory;
+import com.jachs.hunDouLuo.video.SoundUtils;
 import com.jachs.hunDouLuo.weapon.NunLinerWeapon;
 import com.jachs.hunDouLuo.weapon.ShotWeapon;
 import com.jachs.hunDouLuo.weapon.SimpleWeapon;
@@ -159,7 +159,9 @@ import com.jachs.hunDouLuo.weapon.StrongWeapon;
        }
      });
    }
- 
+   /****
+    * 初始化引擎
+    */
    private void initEnemys()
    {
      SimpleEnemy[] enemy0 = { new SimpleEnemy(new FloatPoint(300.0F, 100.0F), 6, 0), 
@@ -231,7 +233,9 @@ import com.jachs.hunDouLuo.weapon.StrongWeapon;
        this.enemys.add(enemy4[i]);
      }
    }
- 
+   /****
+    * 初始化面板
+    */
    public void paint(Graphics g)
    {
      super.paint(g);

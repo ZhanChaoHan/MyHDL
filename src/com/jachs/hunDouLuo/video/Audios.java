@@ -1,4 +1,4 @@
- package com.jachs.hunDouLuo.ui;
+ package com.jachs.hunDouLuo.video;
  
  import java.io.FileInputStream;
  import sun.audio.AudioStream;
