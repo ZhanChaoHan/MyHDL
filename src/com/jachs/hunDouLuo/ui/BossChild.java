@@ -6,6 +6,7 @@
 
 import com.jachs.hunDouLuo.base.Bullet;
 import com.jachs.hunDouLuo.base.Weapon;
+import com.jachs.hunDouLuo.weapon.SimpleBossWeapon;
  
  public class BossChild
  {

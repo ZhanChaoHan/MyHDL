@@ -7,6 +7,7 @@
 import com.jachs.hunDouLuo.base.Bullet;
 import com.jachs.hunDouLuo.base.Player;
 import com.jachs.hunDouLuo.base.Weapon;
+import com.jachs.hunDouLuo.weapon.SimpleWeapon;
  
  public class SimpleEnemy extends Player
  {

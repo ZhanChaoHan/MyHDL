@@ -1,4 +1,4 @@
- package com.jachs.hunDouLuo.ui;
+ package com.jachs.hunDouLuo.weapon;
  
  import java.util.ArrayList;
  import java.util.List;
@@ -6,6 +6,7 @@
 import com.jachs.hunDouLuo.base.Bullet;
 import com.jachs.hunDouLuo.base.Weapon;
 import com.jachs.hunDouLuo.bullet.StrongBullet;
+import com.jachs.hunDouLuo.ui.FloatPoint;
  
  public class StrongBossWeapon extends Weapon
  {

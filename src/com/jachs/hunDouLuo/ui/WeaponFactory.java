@@ -1,6 +1,9 @@
  package com.jachs.hunDouLuo.ui;
 
 import com.jachs.hunDouLuo.base.Weapon;
+import com.jachs.hunDouLuo.weapon.NunLinerWeapon;
+import com.jachs.hunDouLuo.weapon.ShotWeapon;
+import com.jachs.hunDouLuo.weapon.SimpleWeapon;
 
 public class WeaponFactory
  {

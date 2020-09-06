@@ -11,6 +11,9 @@ import java.util.List;
 import java.util.Random;
 
 import com.jachs.hunDouLuo.base.Bullet;
+import com.jachs.hunDouLuo.weapon.NunLinerWeapon;
+import com.jachs.hunDouLuo.weapon.ShotWeapon;
+import com.jachs.hunDouLuo.weapon.SimpleWeapon;
 
  /****
      * 主函数
