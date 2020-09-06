@@ -101,7 +101,9 @@ import java.util.Random;
              MainFrame.this.hero.canDrop = true;
          }
        }
- 
+      /****
+       	* 键盘监听事件
+       */
        public void keyPressed(KeyEvent e)
        {
          int type = e.getKeyCode() - 48;

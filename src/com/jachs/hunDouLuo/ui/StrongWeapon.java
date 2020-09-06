@@ -2,6 +2,8 @@
  
  import java.util.ArrayList;
  import java.util.List;
+
+import com.jachs.hunDouLuo.base.Weapon;
  
  public class StrongWeapon extends Weapon
  {

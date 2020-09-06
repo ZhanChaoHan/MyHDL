@@ -1,6 +1,8 @@
  package com.jachs.hunDouLuo.ui;
- 
- public class WeaponFactory
+
+import com.jachs.hunDouLuo.base.Weapon;
+
+public class WeaponFactory
  {
    static Weapon weapon;
  

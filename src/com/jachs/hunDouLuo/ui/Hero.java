@@ -2,6 +2,9 @@
  
  import java.awt.Graphics2D;
  import java.util.List;
+
+import com.jachs.hunDouLuo.base.Player;
+import com.jachs.hunDouLuo.base.Weapon;
  
  public class Hero extends Player
  {

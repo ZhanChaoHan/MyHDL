@@ -2,7 +2,7 @@
  
  import java.awt.Graphics2D;
  
- abstract class Bullet
+ public abstract class Bullet
  {
    public FloatPoint position;
    public boolean isAlive = true;

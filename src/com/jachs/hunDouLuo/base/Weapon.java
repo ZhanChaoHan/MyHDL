@@ -1,8 +1,15 @@
- package com.jachs.hunDouLuo.ui;
+ package com.jachs.hunDouLuo.base;
  
  import java.util.List;
- 
- abstract class Weapon
+
+import com.jachs.hunDouLuo.ui.FloatPoint;
+import com.jachs.hunDouLuo.ui.Bullet;
+ /***
+  * 武器对象父类
+  * @author zhanchaohan
+  *
+  */
+public abstract class Weapon
  {
    public int type;
  
