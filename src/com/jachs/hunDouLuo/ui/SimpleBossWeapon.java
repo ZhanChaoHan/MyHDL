@@ -5,6 +5,7 @@
 
 import com.jachs.hunDouLuo.base.Bullet;
 import com.jachs.hunDouLuo.base.Weapon;
+import com.jachs.hunDouLuo.bullet.SimpleBullet;
  
  public class SimpleBossWeapon extends Weapon
  {

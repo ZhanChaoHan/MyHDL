@@ -1,8 +1,10 @@
- package com.jachs.hunDouLuo.ui;
+ package com.jachs.hunDouLuo.bullet;
  
  import java.awt.Graphics2D;
 
 import com.jachs.hunDouLuo.base.Bullet;
+import com.jachs.hunDouLuo.ui.FloatPoint;
+import com.jachs.hunDouLuo.ui.Imgs;
  
  public class ShotBullet extends Bullet
  {
