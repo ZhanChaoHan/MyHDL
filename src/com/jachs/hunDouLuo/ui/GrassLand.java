@@ -3,6 +3,7 @@
  import java.awt.Graphics2D;
 
 import com.jachs.hunDouLuo.MainFrame;
+import com.jachs.hunDouLuo.character.Hero;
  
  public class GrassLand
  {

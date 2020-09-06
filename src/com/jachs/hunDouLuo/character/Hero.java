@@ -1,4 +1,4 @@
- package com.jachs.hunDouLuo.ui;
+ package com.jachs.hunDouLuo.character;
  
  import java.awt.Graphics2D;
  import java.util.List;
@@ -6,8 +6,16 @@
 import com.jachs.hunDouLuo.base.Bullet;
 import com.jachs.hunDouLuo.base.Player;
 import com.jachs.hunDouLuo.base.Weapon;
+import com.jachs.hunDouLuo.ui.FloatPoint;
+import com.jachs.hunDouLuo.ui.Imgs;
 import com.jachs.hunDouLuo.weapon.SimpleWeapon;
  
+
+/****
+ * 英雄初始化
+ * @author zhanchaohan
+ *
+ */
  public class Hero extends Player
  {
    public FloatPoint position;//位置

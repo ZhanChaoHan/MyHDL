@@ -1,4 +1,4 @@
- package com.jachs.hunDouLuo.ui;
+ package com.jachs.hunDouLuo.character;
  
  import java.awt.Graphics2D;
  import java.util.ArrayList;
@@ -6,10 +6,17 @@
 
 import com.jachs.hunDouLuo.base.Bullet;
 import com.jachs.hunDouLuo.base.Weapon;
+import com.jachs.hunDouLuo.ui.FloatPoint;
+import com.jachs.hunDouLuo.ui.Imgs;
 import com.jachs.hunDouLuo.video.SoundUtils;
 import com.jachs.hunDouLuo.weapon.SimpleBossWeapon;
 import com.jachs.hunDouLuo.weapon.StrongBossWeapon;
  
+/****
+  * 大Boss初始化
+ * @author zhanchaohan
+ *@deprecated  目前没用到没写那么多
+ */
  public class Boss
  {
    public FloatPoint position;
