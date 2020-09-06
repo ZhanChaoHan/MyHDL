@@ -19,7 +19,7 @@ import com.jachs.hunDouLuo.ui.FloatPoint;
    }
  
    public List<Bullet> shot(FloatPoint position, int direction, int num) {
-     List list = new ArrayList(1);
+     List<Bullet> list = new ArrayList<Bullet>(1);
      switch (direction) {
      case 0:
        list.add(new SimpleBullet(new FloatPoint(position.x, position.y - 16.666666F), direction, this.type, 0.0F, -2.0F));
@@ -50,7 +50,7 @@ import com.jachs.hunDouLuo.ui.FloatPoint;
    }
  
    public List<Bullet> shot(FloatPoint position, FloatPoint target, int direction, int num) {
-     List list = new ArrayList(1);
+     List<Bullet> list = new ArrayList<Bullet>(1);
      if ((target.x > position.x) && (target.y < position.y)) {
        float speedX = (float)((target.x - position.x) * 2.0F / Math.sqrt((target.x - position.x) * (target.x - position.x) + (target.y - position.y) * (target.y - position.y)));
        float speedY = (float)((target.y - position.y) * 2.0F / Math.sqrt((target.x - position.x) * (target.x - position.x) + (target.y - position.y) * (target.y - position.y)));
