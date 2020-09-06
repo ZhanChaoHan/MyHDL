@@ -20,7 +20,7 @@ import com.jachs.hunDouLuo.video.SoundUtils;
    }
  
    public List<Bullet> shot(FloatPoint position, int direction, int num) {
-     List list = new ArrayList(1);
+     List<Bullet> list = new ArrayList<Bullet>(1);
      switch (direction) {
      case 0:
        list.add(new NunLinerBullet(new FloatPoint(position.x, position.y - 16.666666F), direction, this.type, 0.0F, -3.0F));

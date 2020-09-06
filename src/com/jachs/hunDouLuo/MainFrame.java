@@ -125,7 +125,7 @@ import com.jachs.hunDouLuo.weapon.StrongWeapon;
        public void keyPressed(KeyEvent e)
        {
          int type = e.getKeyCode() - 48;
-         if ((type > 0) && (type < 5)) {
+         if ((type > 0) && (type < 6)) {//限制武器校验
            MainFrame.this.hero.weapon = WeaponFactory.getWeapon(type);
          }
  

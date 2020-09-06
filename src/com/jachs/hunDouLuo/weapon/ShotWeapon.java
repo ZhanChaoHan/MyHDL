@@ -20,7 +20,7 @@ import com.jachs.hunDouLuo.video.SoundUtils;
    }
  
    public List<Bullet> shot(FloatPoint position, int direction, int num) {
-     List list = new ArrayList(1);
+     List<Bullet> list = new ArrayList<Bullet>(1);
      switch (direction) {
      case 0:
        if (num < 2) {
