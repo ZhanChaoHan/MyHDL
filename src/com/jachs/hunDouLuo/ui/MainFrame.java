@@ -9,7 +9,12 @@ import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
- 
+
+ /****
+     * 主函数
+  * @author zhanchaohan
+  *
+  */
  public class MainFrame extends Frame
    implements Runnable
  {
@@ -39,10 +44,10 @@ import java.util.Random;
    private boolean downDown = false;
    private boolean jumpDown = false;
    private int heroNum = 30;
-   private List<SimpleEnemy> enemys = new ArrayList();
+   private List<SimpleEnemy> enemys = new ArrayList<SimpleEnemy>();
    private boolean showBossScene = false;
    private Boss boss;
-   private List<BossChild> bossChildren = new ArrayList();
+   private List<BossChild> bossChildren = new ArrayList<BossChild>();
    GameStartBackgroundSoundThread gameStartBgSoundThread;
    PreBossBackgroundSoundThread preBossBgSoundThread;
    BossBackgroundSoundThread bossBgSound;
@@ -69,8 +74,8 @@ import java.util.Random;
      this.gameStartBgSoundThread = new GameStartBackgroundSoundThread();
      new Thread(this.gameStartBgSoundThread).start();
      this.hero = new Hero(new FloatPoint(50.0F, 30.0F), 2);
-     this.heroBullets = new ArrayList();
-     this.enemyBullets = new ArrayList();
+     this.heroBullets = new ArrayList<Bullet>();
+     this.enemyBullets = new ArrayList<Bullet>();
      initGrassLands();
      initEnemys();
      setSize(this.backgroundSizeOfWidth, this.backgroundSizeOfHeight);

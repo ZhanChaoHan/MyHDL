@@ -5,19 +5,19 @@
  
  public class Hero extends Player
  {
-   public FloatPoint position;
-   public int direction;
+   public FloatPoint position;//位置
+   public int direction;//方向
    private static int ANIMATION_TEMP = 0;
    private static float JUMP_HEIGHT = 0.0F;
-   public boolean jumping = false;
+   public boolean jumping = false;//是否跳跃
    public boolean jumpFinished = true;
    public boolean canShot = true;
    public boolean canDrop = true;
    public boolean towardsLeft = false;
    public boolean towardsRight = true;
    public boolean visible = false;
-   public int state = 0;
-   public Weapon weapon;
+   public int state = 0;//状态
+   public Weapon weapon;//当前武器
    public int deathEventType;
    public int width;
    public int height;
