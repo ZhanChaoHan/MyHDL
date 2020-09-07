@@ -131,7 +131,7 @@ import com.jachs.hunDouLuo.weapon.StrongWeapon;
  
          MainFrame.this.setKeyStateWhenKeyPressed(e);
          if ((MainFrame.this.hero.state != 4) && (MainFrame.this.hero.state != 5)) {
-           if (KeyEvent.getKeyText(e.getKeyCode()).equals("J")) {
+           if (KeyEvent.getKeyText(e.getKeyCode()).equals("J")) {//点击J开始射击
              if (MainFrame.this.hero.canShot) {
                if (((MainFrame.this.hero.weapon instanceof NunLinerWeapon)) && (MainFrame.this.heroBullets.size() < 4)) {
                  MainFrame.this.heroBullets.addAll(MainFrame.this.hero.shot(1));
@@ -160,7 +160,7 @@ import com.jachs.hunDouLuo.weapon.StrongWeapon;
      });
    }
    /****
-    * 初始化引擎
+    * 初始化对手
     */
    private void initEnemys()
    {
@@ -898,7 +898,9 @@ import com.jachs.hunDouLuo.weapon.StrongWeapon;
  
      return false;
    }
- 
+ /****
+  * 初始化地图
+  */
    private void initGrassLands()
    {
      FloatPoint[] points = { new FloatPoint(1.0F, 110.0F), new FloatPoint(5.0F, 142.0F), new FloatPoint(8.0F, 174.0F), 
@@ -950,7 +952,9 @@ import com.jachs.hunDouLuo.weapon.StrongWeapon;
      }
      return false;
    }
- 
+   /****
+    * 敌人是否死亡检测
+    */
    private void enemysDeathCheck() {
      for (int i = 0; i < this.enemys.size(); i++) {
        if ((((SimpleEnemy)this.enemys.get(i)).state == 5) || 

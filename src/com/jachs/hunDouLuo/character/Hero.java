@@ -238,7 +238,11 @@ import com.jachs.hunDouLuo.weapon.SimpleWeapon;
      else if (this.direction == 2)
        g.drawImage(Imgs.CRAWL2, (int)((this.position.x - mapPosition) * 3.0F) - 55, (int)(this.position.y * 3.0F) - 42, null);
    }
- 
+   /****
+      * 射击
+    * @param num
+    * @return
+    */
    public List<Bullet> shot(int num)
    {
      if (this.canShot) {
