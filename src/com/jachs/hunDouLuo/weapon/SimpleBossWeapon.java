@@ -8,6 +8,10 @@ import com.jachs.hunDouLuo.base.Weapon;
 import com.jachs.hunDouLuo.bullet.SimpleBullet;
 import com.jachs.hunDouLuo.ui.FloatPoint;
  
+/****
+ * @author zhanchaohan
+ *
+ */
  public class SimpleBossWeapon extends Weapon
  {
    private int type;
@@ -19,7 +23,7 @@ import com.jachs.hunDouLuo.ui.FloatPoint;
    }
  
    public List<Bullet> shot(FloatPoint position, FloatPoint target, int direction, int num) {
-     List list = new ArrayList(1);
+     List<Bullet> list = new ArrayList<Bullet>(1);
      float speedX = (float)((target.x - position.x) * 2.0F / Math.sqrt((target.x - position.x) * (target.x - position.x) + (target.y - position.y) * (target.y - position.y)));
      float speedY = (float)((target.y - position.y) * 2.0F / Math.sqrt((target.x - position.x) * (target.x - position.x) + (target.y - position.y) * (target.y - position.y)));
      list.add(new SimpleBullet(new FloatPoint(position.x, position.y), direction, this.type, speedX, speedY));

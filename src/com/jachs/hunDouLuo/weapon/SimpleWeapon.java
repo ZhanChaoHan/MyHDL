@@ -8,6 +8,10 @@ import com.jachs.hunDouLuo.base.Weapon;
 import com.jachs.hunDouLuo.bullet.SimpleBullet;
 import com.jachs.hunDouLuo.ui.FloatPoint;
  
+/****
+ * @author zhanchaohan
+ *
+ */
  public class SimpleWeapon extends Weapon
  {
    private int type;

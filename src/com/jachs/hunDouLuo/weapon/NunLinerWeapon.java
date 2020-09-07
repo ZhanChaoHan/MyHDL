@@ -8,7 +8,10 @@ import com.jachs.hunDouLuo.base.Weapon;
 import com.jachs.hunDouLuo.bullet.NunLinerBullet;
 import com.jachs.hunDouLuo.ui.FloatPoint;
 import com.jachs.hunDouLuo.video.SoundUtils;
- 
+/****
+ * @author zhanchaohan
+ *
+ */
  public class NunLinerWeapon extends Weapon
  {
    private int type;

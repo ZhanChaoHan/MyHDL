@@ -8,7 +8,11 @@ import com.jachs.hunDouLuo.base.Weapon;
 import com.jachs.hunDouLuo.bullet.StrongBullet;
 import com.jachs.hunDouLuo.ui.FloatPoint;
 import com.jachs.hunDouLuo.video.SoundUtils;
- 
+
+/****
+* @author zhanchaohan
+*
+*/
  public class StrongWeapon extends Weapon
  {
    private int type;

@@ -9,6 +9,10 @@ import com.jachs.hunDouLuo.bullet.ShotBullet;
 import com.jachs.hunDouLuo.ui.FloatPoint;
 import com.jachs.hunDouLuo.video.SoundUtils;
  
+/****
+ * @author zhanchaohan
+ *
+ */
  public class ShotWeapon extends Weapon
  {
    private int type;
