@@ -4,6 +4,11 @@
  import sun.audio.AudioPlayer;
  import sun.audio.AudioStream;
  
+ /****
+  * 
+  * @author zhanchaohan
+  *
+  */
  public class BossBackgroundSoundThread
    implements Runnable
  {

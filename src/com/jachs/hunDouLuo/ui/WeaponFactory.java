@@ -7,6 +7,11 @@ import com.jachs.hunDouLuo.weapon.SimpleBossWeapon;
 import com.jachs.hunDouLuo.weapon.SimpleWeapon;
 import com.jachs.hunDouLuo.weapon.StrongWeapon;
 
+/****
+ * 
+ * @author zhanchaohan
+ *
+ */
 public class WeaponFactory
  {
    static Weapon weapon;

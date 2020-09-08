@@ -1,5 +1,10 @@
  package com.jachs.hunDouLuo.ui;
  
+ /****
+  * 
+  * @author zhanchaohan
+  *
+  */
  public class FloatPoint
  {
    public float x;

@@ -9,6 +9,11 @@ import com.jachs.hunDouLuo.base.Player;
 import com.jachs.hunDouLuo.base.Weapon;
 import com.jachs.hunDouLuo.weapon.SimpleWeapon;
  
+/****
+ * 
+ * @author zhanchaohan
+ *
+ */
  public class SimpleEnemy extends Player
  {
    public FloatPoint position;

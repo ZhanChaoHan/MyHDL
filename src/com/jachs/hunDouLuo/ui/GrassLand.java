@@ -5,6 +5,11 @@
 import com.jachs.hunDouLuo.MainFrame;
 import com.jachs.hunDouLuo.character.Hero;
  
+/****
+ * 
+ * @author zhanchaohan
+ *
+ */
  public class GrassLand
  {
    public FloatPoint position;
